@@ -10,6 +10,7 @@ import { Feature } from "./components/pages/Feature";
 import { Grid } from "./components/pages/Grid";
 import { PsychologistList } from "./components/pages/PsychologistList";
 import { BrowserRouter } from "react-router-dom";
+import { Footer } from "./components/pages/Footer";
 
 storyblokInit({
   accessToken: "kbafkL87wmanvvONMwVJXgtt",
@@ -20,6 +21,7 @@ storyblokInit({
     feature: Feature,
     grid: Grid,
     psychologistList: PsychologistList,
+    footer: Footer
   },
   apiOptions: {
     region: "us",
